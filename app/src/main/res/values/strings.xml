@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Grigarage</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fast_delivery_text">We carefully monitor delivery time and delivery quality, which is why food comes to you straight from the garden</string>
+    <string name="fast_deliveries">Fast deliveries</string>
+    <string name="next_page">Next</string>
+    <string name="our_garden">Our garden</string>
+    <string name="garden_text">We grow our own vegetables for our restaurant, which guarantees excellent taste and a set of vitamins</string>
+    <string name="waisting_time">Waisting time</string>
+    <string name="waisting_text">There is no longer any need to waste time on long preparation of food; affordable prices and fast service are always ready for your arrival</string>
+    <string name="finish_page">Finish</string>
+
 </resources>
