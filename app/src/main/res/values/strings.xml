@@ -2,6 +2,7 @@
     <string name="app_name">Grigarage</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- Loading screens -->
     <string name="fast_delivery_text">We carefully monitor delivery time and delivery quality, which is why food comes to you straight from the garden</string>
     <string name="fast_deliveries">Fast deliveries</string>
     <string name="next_page">Next</string>
@@ -10,5 +11,11 @@
     <string name="waisting_time">Waisting time</string>
     <string name="waisting_text">There is no longer any need to waste time on long preparation of food; affordable prices and fast service are always ready for your arrival</string>
     <string name="finish_page">Finish</string>
+    <!-- bottom menu -->
+    <string name="home_bot_menu">Home</string>
+    <string name="cart_bot_menu">Cart</string>
+    <string name="favourite_bot_menu">Favourite</string>
+    <string name="profile_bot_menu">Profile</string>
+    <string name="explore_bot_menu">Explore</string>
 
 </resources>

@@ -4,36 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/app_navigation"
     app:startDestination="@id/welcomeScreen">
+
     <fragment
         android:id="@+id/welcomeScreen"
         android:name="com.example.grigarage.onboarding.WelcomeScreen"
         android:label="fragment_welcome_screen"
-        tools:layout="@layout/fragment_welcome_screen" >
+        tools:layout="@layout/fragment_welcome_screen">
+
         <action
             android:id="@+id/action_welcomeScreen_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment"
             app:popUpTo="@id/welcomeScreen"
             app:popUpToInclusive="true" />
+
         <action
             android:id="@+id/action_welcomeScreen_to_menuFragment"
             app:destination="@id/menuFragment"
             app:popUpTo="@id/welcomeScreen"
             app:popUpToInclusive="true" />
     </fragment>
+
     <fragment
         android:id="@+id/viewPagerFragment"
         android:name="com.example.grigarage.onboarding.ViewPagerFragment"
         android:label="fragment_view_pager"
-        tools:layout="@layout/fragment_view_pager" >
+        tools:layout="@layout/fragment_view_pager">
+
+        <fragment
+            android:id="@+id/firstScreen"
+            android:name="com.example.grigarage.onboarding.screens.FirstScreen"
+            android:label="fragment_first_screen"
+            tools:layout="@layout/fragment_first_screen" />
+
+        <fragment
+            android:id="@+id/secondScreen"
+            android:name="com.example.grigarage.onboarding.screens.SecondScreen"
+            android:label="fragment_second_screen"
+            tools:layout="@layout/fragment_second_screen" />
+
+        <fragment
+            android:id="@+id/thirdScreen"
+            android:name="com.example.grigarage.onboarding.screens.ThirdScreen"
+            android:label="fragment_third_screen"
+            tools:layout="@layout/fragment_third_screen" />
+
         <action
             android:id="@+id/action_viewPagerFragment_to_menuFragment"
             app:destination="@id/menuFragment"
             app:popUpTo="@id/viewPagerFragment"
             app:popUpToInclusive="true" />
     </fragment>
+
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.example.grigarage.mainsection.MenuFragment"
         android:label="fragment_menu"
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu"/>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.grigarage.mainsection.categories.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.grigarage.mainsection.categories.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.grigarage.mainsection.categories.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.grigarage.mainsection.categories.FavouriteFragment"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_favourite" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.grigarage.mainsection.categories.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

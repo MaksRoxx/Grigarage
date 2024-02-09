@@ -16,6 +16,11 @@ class WelcomeScreen : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        return inflater.inflate(R.layout.fragment_welcome_screen, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         Handler(requireActivity().mainLooper).postDelayed({
             if (onBoardingFinished()){
                 findNavController().navigate(R.id.action_welcomeScreen_to_menuFragment)
@@ -24,7 +29,6 @@ class WelcomeScreen : Fragment() {
             }
 
         }, 3000)
-        return inflater.inflate(R.layout.fragment_welcome_screen, container, false)
     }
 
     private fun onBoardingFinished(): Boolean{
