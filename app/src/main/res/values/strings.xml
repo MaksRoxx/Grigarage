@@ -17,5 +17,16 @@
     <string name="favourite_bot_menu">Favourite</string>
     <string name="profile_bot_menu">Profile</string>
     <string name="explore_bot_menu">Explore</string>
+    <!-- profile screen -->
+    <string name="profile_image_descr_avatar">avatar</string>
+    <string name="user_name">Mahsa Hayati</string>
+    <string name="user_mail">Mahsahty@gmail.com</string>
+    <string name="profile_selection">Profile</string>
+    <string name="my_order_selection">My order</string>
+    <string name="my_cart_selection">My cart</string>
+    <string name="my_address_selection">My address</string>
+    <string name="help_selection">Help</string>
+    <string name="about_selection">About</string>
+    <string name="log_out_selection">LOG OUT</string>
 
 </resources>

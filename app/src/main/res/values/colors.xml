@@ -9,4 +9,6 @@
 
     <color name="small_text">#898F94</color>
     <color name="text_color">#1E1E1E</color>
+
+    <color name="red">#FF4242</color>
 </resources>
