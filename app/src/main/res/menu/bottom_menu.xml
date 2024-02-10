@@ -3,22 +3,22 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/home"
+        android:icon="@drawable/bottomnav_icon_home"
         android:title="@string/home_bot_menu" />
     <item
         android:id="@+id/cartFragment"
-        android:icon="@drawable/search"
+        android:icon="@drawable/bottomnav_icon_search"
         android:title="@string/explore_bot_menu" />
     <item
         android:id="@+id/exploreFragment"
-        android:icon="@drawable/shopping_cart"
+        android:icon="@drawable/bottomnav_icon_shopping_cart"
         android:title="@string/cart_bot_menu" />
     <item
         android:id="@+id/favouriteFragment"
-        android:icon="@drawable/heart"
+        android:icon="@drawable/bottomnav_icon_heart"
         android:title="@string/favourite_bot_menu" />
     <item
         android:id="@+id/profileFragment"
-        android:icon="@drawable/profile"
+        android:icon="@drawable/bottomnav_icon_profile"
         android:title="@string/profile_bot_menu" />
 </menu>
