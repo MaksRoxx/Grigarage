@@ -5,8 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.example.grigarage.R
 import com.example.grigarage.databinding.FragmentMenuBinding
 
 class MenuFragment : Fragment() {
@@ -23,7 +24,8 @@ class MenuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val navController = findNavController()
-        binding.bottomNavigationView.setupWithNavController(navController)
+        val navHostFragment = childFragmentManager.findFragmentById(R.id.fragmentContainerView2) as NavHostFragment
+        val navHostController = navHostFragment.navController
+        binding.bottomNavigationView.setupWithNavController(navHostController)
     }
 }
