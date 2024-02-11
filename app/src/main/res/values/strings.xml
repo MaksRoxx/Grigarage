@@ -29,4 +29,11 @@
     <string name="about_selection">About</string>
     <string name="log_out_selection">LOG OUT</string>
 
+    <!-- profile screen -->
+    <string name="search_hint">Search</string>
+    <string name="hi_home_frag">Hi,Mahsa</string>
+    <string name="categories_menu">Categories</string>
+    <string name="see_all_menu">See all</string>
+    <string name="best_selling_menu">Best Selling</string>
+
 </resources>
