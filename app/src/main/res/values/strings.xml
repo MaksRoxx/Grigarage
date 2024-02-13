@@ -35,5 +35,18 @@
     <string name="categories_menu">Categories</string>
     <string name="see_all_menu">See all</string>
     <string name="best_selling_menu">Best Selling</string>
+    <string name="categories_explore">Categories</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="empty_cart">Your car is empty</string>
+    <string name="subtotal_cart">Subtotal</string>
+    <string name="price_cart">$43.00</string>
+    <string name="discount_cart">Discount</string>
+    <string name="zero_cart">$0</string>
+    <string name="delivery_cart">Delivery</string>
+    <string name="free_delivery_cart">Free</string>
+    <string name="total_cart">Total</string>
+    <string name="place_order_button_cart">Place order</string>
+    <string name="title_favourite">Favourite</string>
+    <string name="empty_favourite">No favourite :(</string>
 
 </resources>

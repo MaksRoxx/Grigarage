@@ -6,11 +6,11 @@
         android:icon="@drawable/bottomnav_icon_home"
         android:title="@string/home_bot_menu" />
     <item
-        android:id="@+id/cartFragment"
+        android:id="@+id/exploreFragment"
         android:icon="@drawable/bottomnav_icon_search"
         android:title="@string/explore_bot_menu" />
     <item
-        android:id="@+id/exploreFragment"
+        android:id="@+id/cartFragment"
         android:icon="@drawable/bottomnav_icon_shopping_cart"
         android:title="@string/cart_bot_menu" />
     <item
